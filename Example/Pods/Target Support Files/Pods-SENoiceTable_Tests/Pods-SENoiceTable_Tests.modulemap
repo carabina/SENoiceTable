@@ -1,0 +1,6 @@
+framework module Pods_SENoiceTable_Tests {
+  umbrella header "Pods-SENoiceTable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

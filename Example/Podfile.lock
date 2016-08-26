@@ -1,0 +1,16 @@
+PODS:
+  - SENoiceTable (0.1.0)
+
+DEPENDENCIES:
+  - SENoiceTable (from `../`)
+
+EXTERNAL SOURCES:
+  SENoiceTable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SENoiceTable: 4a02a8c0202ccbe0a9c9ade623b0043984cf8ad4
+
+PODFILE CHECKSUM: 69fbc51e7e291c6dfdae1ff83c38bd3a7285fc95
+
+COCOAPODS: 1.0.1
