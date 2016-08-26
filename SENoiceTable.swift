@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol NoiceTableDelegate {
+public protocol NoiceTableDelegate {
     func CellTapped(row: Int) -> () -> Void
     func CellDismissed(row: Int) -> () -> Void
 }
@@ -18,21 +18,21 @@ public class NoiceTable: UIView {
     
     var cellWidth : CGFloat?
     
-    var cellHeight : CGFloat?
+    public var cellHeight : CGFloat?
     
-    var cellNames : [String]?
+    public var cellNames : [String]?
     
-    var cellAlignment : UIControlContentHorizontalAlignment?
+    public var cellAlignment : UIControlContentHorizontalAlignment?
     
-    var cellEdgeInsets : UIEdgeInsets?
+    public var cellEdgeInsets : UIEdgeInsets?
     
-    var separatorColor : UIColor? { didSet { } }
+    public var separatorColor : UIColor? { didSet { } }
     
     override public var backgroundColor: UIColor? { didSet { } }
     
-    var tableWidth : CGFloat?
+    public var tableWidth : CGFloat?
     
-    var tableHeight : CGFloat?
+    public var tableHeight : CGFloat?
     
     var scrollView : UIScrollView?
     
@@ -55,7 +55,7 @@ public class NoiceTable: UIView {
         super.init(coder: aDecoder)
     }
     
-    func make() {
+    public func make() {
         
         createScrollView()
         createTableView()
