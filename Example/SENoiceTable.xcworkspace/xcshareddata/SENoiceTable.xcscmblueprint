@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A2268F55EDCEDAB524540C0795964DB5B4124607",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "06C2760E7DCAB8E8DE41D53CB4FA095CE91BC07E" : 0,
+    "A2268F55EDCEDAB524540C0795964DB5B4124607" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "346D5D63-8AAE-43AA-A51F-63195C8FAD18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "06C2760E7DCAB8E8DE41D53CB4FA095CE91BC07E" : "",
+    "A2268F55EDCEDAB524540C0795964DB5B4124607" : "Example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SENoiceTable",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SENoiceTable.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SahandTheGreat\/SENoiceTable",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06C2760E7DCAB8E8DE41D53CB4FA095CE91BC07E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SahandTheGreat\/SENoiceTable",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A2268F55EDCEDAB524540C0795964DB5B4124607"
+    }
+  ]
+}

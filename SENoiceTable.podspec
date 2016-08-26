@@ -30,7 +30,7 @@ This is a very noice table view. Learn more here: https://github.com/sahandthegr
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SENoiceTable/Classes/**/*'
+  s.source_files = 'SENoiceTable/Classes/*'
   
   # s.resource_bundles = {
   #   'SENoiceTable' => ['SENoiceTable/Assets/*.png']

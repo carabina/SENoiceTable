@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		878B5E8F1D6FCF88003CE207 /* NoiceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B5E8E1D6FCF88003CE207 /* NoiceTable.swift */; };
+		87B1528F1D6FD3D600BA7436 /* NoiceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B1528E1D6FD3D600BA7436 /* NoiceTable.swift */; };
 		88A9EDAC4377C4A8E00E3EB035DC9242 /* Pods-SENoiceTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56FB1B932F33AA45838C8B4292FC410 /* Pods-SENoiceTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B343DD288E23A5773BA6426031C6156 /* Pods-SENoiceTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D680B9AA990AF529F9121AECDEC2145 /* Pods-SENoiceTable_Tests-dummy.m */; };
 		FE5DBD5AB5A1A19B309E3EC92E4C6FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -19,7 +19,7 @@
 		2D680B9AA990AF529F9121AECDEC2145 /* Pods-SENoiceTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SENoiceTable_Tests-dummy.m"; sourceTree = "<group>"; };
 		74BF0F612AFD98ADC82087FBBB8756E0 /* Pods-SENoiceTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SENoiceTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C9266CF2A9C961D0CEA770E7E5615B0 /* Pods-SENoiceTable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SENoiceTable_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		878B5E8E1D6FCF88003CE207 /* NoiceTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoiceTable.swift; sourceTree = "<group>"; };
+		87B1528E1D6FD3D600BA7436 /* NoiceTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoiceTable.swift; path = SENoiceTable/Classes/NoiceTable.swift; sourceTree = "<group>"; };
 		8EFD443ABA9E01D6B3BD33DF957EDD57 /* Pods-SENoiceTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SENoiceTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9932D16DCC469F2776560CF54F30C216 /* Pods-SENoiceTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SENoiceTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		9F49A546A916739528D6BAC6DFABF4DD /* SENoiceTable */ = {
 			isa = PBXGroup;
 			children = (
-				878B5E8E1D6FCF88003CE207 /* NoiceTable.swift */,
+				87B1528E1D6FD3D600BA7436 /* NoiceTable.swift */,
 			);
 			name = SENoiceTable;
 			path = ../..;
@@ -182,8 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B1528F1D6FD3D600BA7436 /* NoiceTable.swift in Sources */,
 				8B343DD288E23A5773BA6426031C6156 /* Pods-SENoiceTable_Tests-dummy.m in Sources */,
-				878B5E8F1D6FCF88003CE207 /* NoiceTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
