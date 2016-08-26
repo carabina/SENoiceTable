@@ -44,7 +44,7 @@ public class NoiceTable: UIView {
     
     var delegate : NoiceTableDelegate?
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         cellWidth = frame.size.width

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SENoiceTable'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The noicest table you have seen.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ This is a very noice table view. Learn more here: https://github.com/sahandthegr
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SENoiceTable/Classes/*'
+  s.source_files = '*'
   
   # s.resource_bundles = {
   #   'SENoiceTable' => ['SENoiceTable/Assets/*.png']
